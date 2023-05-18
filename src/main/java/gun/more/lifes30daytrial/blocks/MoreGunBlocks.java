@@ -16,7 +16,7 @@ import net.minecraft.util.Identifier;
 
 
 public class MoreGunBlocks {
-    public static final Block SENTRY_BASE = registerBlock("sentry_bae", new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), MoreGunItemGroup.MOREGUN);
+    public static final Block SENTRY_BASE = registerBlock("sentry_base", new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), MoreGunItemGroup.MOREGUN);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

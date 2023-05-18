@@ -1,0 +1,170 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "moregun:block/sentry_base"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [0, 0, 0],
+			"to": [16, 4, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 2, 0]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 10], "texture": "#0"},
+				"east": {"uv": [0, 8, 8, 10], "texture": "#0"},
+				"south": {"uv": [8, 8, 16, 10], "texture": "#0"},
+				"west": {"uv": [0, 8, 8, 10], "texture": "#0"},
+				"up": {"uv": [16, 8, 8, 0], "texture": "#0"},
+				"down": {"uv": [8, 0, 0, 8], "texture": "#0"}
+			}
+		},
+		{
+			"name": "swfringe1",
+			"from": [0, 4, 12],
+			"to": [1, 5, 16],
+			"faces": {
+				"north": {"uv": [2, 2, 2.5, 2.5], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 2.5], "texture": "#0"},
+				"south": {"uv": [4.5, 2, 5, 2.5], "texture": "#0"},
+				"west": {"uv": [2.5, 2, 4.5, 2.5], "texture": "#0"},
+				"up": {"uv": [2.5, 2, 2, 0], "texture": "#0"},
+				"down": {"uv": [3, 0, 2.5, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "swfringe2",
+			"from": [1, 4, 15],
+			"to": [4, 5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-6, 4, 8]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 2, 1], "texture": "#0"},
+				"east": {"uv": [0, 0.5, 0.5, 1], "texture": "#0"},
+				"south": {"uv": [2.5, 0.5, 4, 1], "texture": "#0"},
+				"west": {"uv": [2, 0.5, 2.5, 1], "texture": "#0"},
+				"up": {"uv": [2, 0.5, 0.5, 0], "texture": "#0"},
+				"down": {"uv": [3.5, 0, 2, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "nwfringe1",
+			"from": [0, 4, 0],
+			"to": [1, 5, 4],
+			"faces": {
+				"north": {"uv": [0.5, 1.5, 1, 2], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 2.5], "texture": "#0"},
+				"south": {"uv": [1, 1.5, 1.5, 2], "texture": "#0"},
+				"west": {"uv": [2, 2, 4, 2.5], "texture": "#0"},
+				"up": {"uv": [2, 2, 1.5, 0], "texture": "#0"},
+				"down": {"uv": [2.5, 0, 2, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "nwfringe2",
+			"from": [1, 4, 0],
+			"to": [4, 5, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-6, 4, 8]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 2, 1], "texture": "#0"},
+				"east": {"uv": [0, 0.5, 0.5, 1], "texture": "#0"},
+				"south": {"uv": [2.5, 0.5, 4, 1], "texture": "#0"},
+				"west": {"uv": [2, 0.5, 2.5, 1], "texture": "#0"},
+				"up": {"uv": [2, 0.5, 0.5, 0], "texture": "#0"},
+				"down": {"uv": [3.5, 0, 2, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "nefringe1",
+			"from": [15, 4, 0],
+			"to": [16, 5, 4],
+			"faces": {
+				"north": {"uv": [0.5, 1.5, 1, 2], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 2.5], "texture": "#0"},
+				"south": {"uv": [1, 1.5, 1.5, 2], "texture": "#0"},
+				"west": {"uv": [2, 2, 4, 2.5], "texture": "#0"},
+				"up": {"uv": [2, 2, 1.5, 0], "texture": "#0"},
+				"down": {"uv": [2.5, 0, 2, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "nefringe2",
+			"from": [12, 4, 0],
+			"to": [15, 5, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-6, 4, 8]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 2, 1], "texture": "#0"},
+				"east": {"uv": [0, 0.5, 0.5, 1], "texture": "#0"},
+				"south": {"uv": [2.5, 0.5, 4, 1], "texture": "#0"},
+				"west": {"uv": [2, 0.5, 2.5, 1], "texture": "#0"},
+				"up": {"uv": [2, 0.5, 0.5, 0], "texture": "#0"},
+				"down": {"uv": [3.5, 0, 2, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sefringe1",
+			"from": [15, 4, 12],
+			"to": [16, 5, 16],
+			"faces": {
+				"north": {"uv": [0.5, 1.5, 1, 2], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 2.5], "texture": "#0"},
+				"south": {"uv": [1, 1.5, 1.5, 2], "texture": "#0"},
+				"west": {"uv": [2, 2, 4, 2.5], "texture": "#0"},
+				"up": {"uv": [2, 2, 1.5, 0], "texture": "#0"},
+				"down": {"uv": [2.5, 0, 2, 2], "texture": "#0"}
+			}
+		},
+		{
+			"name": "sefringe2",
+			"from": [12, 4, 15],
+			"to": [15, 5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-6, 4, 8]},
+			"faces": {
+				"north": {"uv": [0, 0.5, 1.5, 1], "texture": "#0"},
+				"east": {"uv": [1.5, 1, 2, 1.5], "texture": "#0"},
+				"south": {"uv": [2, 0.5, 3.5, 1], "texture": "#0"},
+				"west": {"uv": [1.5, 0.5, 2, 1], "texture": "#0"},
+				"up": {"uv": [1.5, 0.5, 0, 0], "texture": "#0"},
+				"down": {"uv": [3, 0, 1.5, 0.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70, 0, 0],
+			"translation": [0, 0, 1],
+			"scale": [0.24, 0.24, 0.24]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, 0, 0],
+			"translation": [0, 0, 1],
+			"scale": [0.24, 0.24, 0.24]
+		},
+		"firstperson_righthand": {
+			"rotation": [2, -55, 0],
+			"translation": [-2, 5.25, 3.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [2, -55, 0],
+			"translation": [-2, 5.25, 3.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [29, 45, 0],
+			"translation": [0, 0.25, 0],
+			"scale": [0.65, 0.65, 0.65]
+		}
+	},
+	"groups": [
+		0,
+		{
+			"name": "gustavofringes",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [1, 2, 3, 4, 5, 6, 7, 8]
+		}
+	]
+}

@@ -10,7 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class MoreGunItems {
-    public static final Item BULLET_9MM = registerItem("bullet_nine_mm", new Item(new FabricItemSettings()));
+    public static final Item BULLET_9MM = registerItem("bullet_9mm", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MoreGun.ID, name), item);

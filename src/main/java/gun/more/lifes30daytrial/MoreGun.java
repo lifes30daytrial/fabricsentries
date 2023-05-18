@@ -1,23 +1,28 @@
-package net.fabricmc.example;
+package gun.more.lifes30daytrial;
 
+import gun.more.lifes30daytrial.blocks.MoreGunBlocks;
+import gun.more.lifes30daytrial.items.MoreGunItemGroup;
+import gun.more.lifes30daytrial.items.MoreGunItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExampleMod implements ModInitializer {
+public class MoreGun implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final Logger LOGGER = LoggerFactory.getLogger("moregun");
-	public static final Block SENTRY_BLOCK = new Block(FabricBlockSettings.of(Mateiral.METAL).strength(4.0f));
+	public static final String ID = "moregun";
+	public static final Logger LOGGER = LoggerFactory.getLogger(ID);
 
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-		Registry.register(Registries.BLOCK, new Identifier("moregun", "sentry_block"), SENTRY_BLOCK);
-		Registry.register(Registries.Item, new Identifier("moregun", "sentry_block"), new BlockItem(SENTRY_BLOCK, new FabricBlockSetting()));
 		LOGGER.info("Hello Fabric world!");
+		MoreGunItemGroup.registerItemGroups();
+		MoreGunItems.registerItems();
+		MoreGunBlocks.registerBlocks();
+
 	}
 }
